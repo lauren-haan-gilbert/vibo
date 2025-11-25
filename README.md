@@ -1,4 +1,4 @@
-# ViBo - Virtual Bookshelf Web App
+# 📚 ViBo – Virtual Bookshelf Web App
 A React + Vite application for discovering, saving, and managing books using live data from the Open Library API and NOVI’s authentication backend.
 
 <p align="left">
@@ -8,182 +8,189 @@ A React + Vite application for discovering, saving, and managing books using liv
   <img src="https://img.shields.io/badge/Auth-NOVI_Backend-yellow" />
 </p>
 
-
+## 📸 Preview
 ![ViBo Screenshot](./src/assets/ViBoSearch.png)
+
 ---
 
-## About this Project
+## 📍 About this Project
 
-ViBo (Virtual Bookshelf) is a multi-page React app that allows users to:
-	•	create an account
-	•	log in/out
-	•	browse 25 random books on login
-	•	search books by title, author, subject, keyword, or exclude an author
-	•	view detailed book information
-	•	search for authors and view their biographies + published works
-	•	save books to a personal reading list
-	•	remove saved books from their bookshelf
-	•	update their account password
-	•	explore books directly from the Open Library API
+**ViBo** (Virtual Bookshelf) is a multi-page React app that allows users to:
 
-Originally built during my Frontend module of the NOVI Hogeschool Full Stack Developer bootcamp, the project was designed from scratch using Adobe XD for the UI/UX flow and is now refined into a polished portfolio piece.
+- create an account  
+- log in/out  
+- browse 25 random books at login  
+- search books by title, author, subject, keyword, or exclude an author  
+- view detailed book info  
+- search for authors and view biographies + published works  
+- save books to a personal reading list  
+- remove books from their bookshelf  
+- update account password  
+- explore books using the Open Library API  
 
-### UI & Interaction Flow Design
-[Adobe XD design files](https://xd.adobe.com/view/c8248d74-c1a0-4a77-994c-a5f5009ac048-9d77/) <br>
+Originally built during the **NOVI Hogeschool Full Stack Developer bootcamp (Frontend module)**, ViBo was fully designed in Adobe XD before implementation.
 
-### Backend Services
-NOVI Educational Backend: https://novi.datavortex.nl
-(No API keys required.)
+### 🎨 UI & Interaction Flow Design  
+https://xd.adobe.com/view/c8248d74-c1a0-4a77-994c-a5f5009ac048-9d77/
 
-### Book Data Source
-Open Library API: https://openlibrary.org/developers/api
+### 🔌 Backend Services  
+NOVI Educational Backend (no API keys needed):  
+https://novi.datavortex.nl
+
+### 📚 Book Data Source  
+Open Library API: https://openlibrary.org/developers/api  
 (No keys required.)
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
-### **Frontend**
-	•	React 18
-	•	Vite
-	•	React Router
-	•	Context API (AuthContext for global authentication state)
-	•	CSS Modules for styling
-	•	Async fetch calls to REST APIs
+### Frontend
+- React 18  
+- Vite  
+- React Router  
+- Context API (AuthContext)  
+- CSS Modules  
+- Fetching REST APIs  
 
-### **APIs & Services**
-	•	Open Library API — book + author search, metadata
-	•	NOVI Educational Backend — authentication, password updates
+### APIs & Services
+- Open Library API — search + metadata  
+- NOVI backend — authentication, password updates  
 
-### **Dev Tools & Configuration**
-	•	npm
-	•	ESLint
-	•	Vite dev server
-	•	Component-based architecture
-
- ---
-
-## What This Project Demonstrates
-	•	Building a multi-page Single Page Application (SPA)
-	•	Implementing authentication, registration, and protected routes
-	•	Managing global auth state with React Context
-	•	Integrating multiple public REST APIs
-	•	Designing UI flows + layouts from Adobe XD prototypes
-	•	Error handling, loading states, and conditional rendering
-	•	Working with dynamic search parameters and large JSON responses
-	•	CRUD-like interactions in a frontend app (save/remove books)
-
- ---
-
-## Features
-### User Authentication
-Create an account, log in/out, update your password.
-
-### Random Book Display
-Shows 25 new books every time a user logs in.
-
-### Flexible Search System
-Search by title, keyword, subject, author, or exclude an author.
-
-### Author Search
-View biographies, author photos (when available), and book lists.
-
-### Detailed Book View
-Title, author, publication date, description, subjects, pages, languages.
-
-### Personal Bookshelf
-Save or remove books from your reading list.
-
-### UI from Adobe XD
-Exact layout and design system prototyped before development.
+### Dev Tools
+- npm  
+- ESLint  
+- Vite dev server  
 
 ---
 
-## Project Structure
-```
+## 🎯 What This Project Demonstrates
+
+- Building a multi-page **Single Page Application (SPA)**  
+- Implementing **authentication, protected routes, registration**  
+- Global state management via **React Context**  
+- Working with **multiple REST APIs**  
+- UI prototyping with **Adobe XD**  
+- Handling loading states + API errors  
+- Dynamic search and filtering  
+- CRUD-like bookshelf interactions  
+
+---
+
+## 🚀 Features
+
+### 🔐 User Authentication  
+Register, log in, log out, change password.
+
+### 🎲 Random Book Display  
+25 random books shown at every login.
+
+### 🔍 Book Search  
+Search by:
+- title  
+- keyword  
+- subject  
+- author  
+- exclude author  
+
+### 👤 Author Search  
+View author bio, photo, and published works.
+
+### 📖 Book Details  
+Includes:
+- title  
+- author  
+- publication date  
+- pages  
+- subjects  
+- languages  
+- description  
+
+### ⭐ Personal Bookshelf  
+Save or remove books from your reading list.
+
+### 🎨 Adobe XD Design  
+Interface designed fully before build.
+
+---
+
+## 📁 Project Structure
 vibo/
 │
-├── public/                 # Static files
+├── public/                 # Static assets
 ├── src/
-│   ├── pages/              # Login, Register, Profile, Search, BookDetail, etc.
+│   ├── pages/              # Route pages
 │   ├── Components/         # Reusable UI components
-│   ├── authContext.jsx     # Global authentication state
-│   ├── bookApi.js          # All Open Library API calls
+│   ├── authContext.jsx     # Global auth logic
+│   ├── bookApi.js          # Open Library API helpers
 │   ├── global.module.css   # Global styling
-│   ├── App.jsx             # Main routing setup
-│   └── main.jsx            # App entry point
+│   ├── App.jsx             # Routing
+│   └── main.jsx            # Entry point
 │
 ├── package.json
 └── README.md
-```
----
-## Requirements 
 
-### **Runtime**
-Install Node.js:
+---
+
+## 📦 Requirements
+
+### Runtime  
+Install Node.js:  
 https://nodejs.org/en/download
 
-ViBo uses:
-	•	Node.js
-	•	npm
+Uses:
+- Node.js  
+- npm  
 
-Both are required to install dependencies and run the app.
+### APIs  
+- Open Library API (no key)  
+- NOVI backend (no key)  
 
-### **APIs**
-	•	Open Library API — no key required
-	•	NOVI backend — no key required
-(If you want to use your own backend, integrate your API in `authContext.jsx`.)
+To use a different backend, update:  
+`authContext.jsx`
 
 ---
 
-## Installation
-	1.	Install Node.js + npm
-	2.	Clone the repository:
+## 🔧 Installation
 
+1. Install Node.js + npm  
+2. Clone the repo:
+git clone https://github.com/lauren-haan-gilbert/vibo.git
 
- git clone https://github.com/lauren-haan-gilbert/vibo.git
+or:
+git@github.com:lauren-haan-gilbert/vibo.git
 
- or 
-
- git@github.com:lauren-haan-gilbert/vibo.git
-
- 3. Install Dependencies
-
+3. Install dependencies:
 npm install
-
-4. Optional: update npm
-
+4. (Optional) Update npm:
 npm install -g npm@latest
 
 ---
 
-## Getting Started 
-### **Available npm commands**
-`npm run dev`
-Start the development server.
+## ▶️ Getting Started
 
-`npm run build`
-Create a production build.
+### Commands
 
-`npm run lint`
-Run ESLint for code consistency.
-
-`npm run preview`
-Preview the production build locally.
-
+#### Start development server
+npm run dev
+#### Build production version
+npm run build
+#### Lint code
+npm run lint
+#### Preview production build
+npm run preview
 ---
 
-## Test Account
-You can create your own account or use:
+## 👤 Test Account
 
+You may create your own, or use:
 username: ViboTest
 password: ViboTest1234!
 
 ---
 
-## Acknowledgements
-	•	NOVI Hogeschool (Frontend module + backend service)
-	•	Open Library API
-	•	Adobe XD for prototyping
-	•	Everyone who tested early versions of the app
-
+## ❤️ Acknowledgements
+- NOVI Hogeschool  
+- Open Library API  
+- Adobe XD  
+- Early testers  
