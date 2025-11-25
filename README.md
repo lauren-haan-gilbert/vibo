@@ -174,13 +174,13 @@ npm install -g npm@latest
 ### Commands
 
 #### Start development server
-npm run dev
+`npm run dev`
 #### Build production version
-npm run build
+`npm run build`
 #### Lint code
-npm run lint
+`npm run lint`
 #### Preview production build
-npm run preview
+`npm run preview`
 ---
 
 ## 👤 Test Account
