@@ -9,7 +9,7 @@ A React + Vite application for discovering, saving, and managing books using liv
 </p>
 
 
-## Preview
+### Preview
 ![ViBo Screenshot](./src/assets/ViBoSearch.png)
 ---
 
