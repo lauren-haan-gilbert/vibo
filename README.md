@@ -187,9 +187,10 @@ npm install -g npm@latest
 ## 👤 Test Account
 
 You may create your own, or use:
-`username: ViboTest
-password: ViboTest1234!`
-
+```
+username: ViboTest
+password: ViboTest1234!
+```
 ---
 
 ## ❤️ Acknowledgements
