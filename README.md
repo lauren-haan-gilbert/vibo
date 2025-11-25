@@ -8,8 +8,8 @@ A React + Vite application for discovering, saving, and managing books using liv
   <img src="https://img.shields.io/badge/REST_API-Open_Library-green" />
   <img src="https://img.shields.io/badge/Auth-NOVI_Backend-yellow" />
 </p>
-
 ```
+
 ![ViBo Screenshot](./src/assets/ViBoSearch.png)
 ---
 
