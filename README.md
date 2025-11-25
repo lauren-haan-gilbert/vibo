@@ -1,15 +1,15 @@
 # ViBo - Virtual Bookshelf Web App
 A React + Vite application for discovering, saving, and managing books using live data from the Open Library API and NOVI’s authentication backend.
 
-```
 <p align="left">
   <img src="https://img.shields.io/badge/React-18-blue" />
   <img src="https://img.shields.io/badge/Vite-Frontend_Project-purple" />
   <img src="https://img.shields.io/badge/REST_API-Open_Library-green" />
   <img src="https://img.shields.io/badge/Auth-NOVI_Backend-yellow" />
 </p>
-```
 
+
+## Preview
 ![ViBo Screenshot](./src/assets/ViBoSearch.png)
 ---
 
