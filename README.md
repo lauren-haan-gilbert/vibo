@@ -1,4 +1,4 @@
-# 📚 ViBo – Virtual Bookshelf Web App
+#  ViBo – Virtual Bookshelf Web App
 A React + Vite application for discovering, saving, and managing books using live data from the Open Library API and NOVI’s authentication backend.
 
 <p align="left">
@@ -8,12 +8,12 @@ A React + Vite application for discovering, saving, and managing books using liv
   <img src="https://img.shields.io/badge/Auth-NOVI_Backend-yellow" />
 </p>
 
-## 📸 Preview
+##  Preview
 ![ViBo Screenshot](./src/assets/ViBoSearch.png)
 
 ---
 
-## 📍 About this Project
+##  About this Project
 
 **ViBo** (Virtual Bookshelf) is a multi-page React app that allows users to:
 
@@ -30,20 +30,20 @@ A React + Vite application for discovering, saving, and managing books using liv
 
 Originally built during the **NOVI Hogeschool Full Stack Developer bootcamp (Frontend module)**, ViBo was fully designed in Adobe XD before implementation.
 
-### 🎨 UI & Interaction Flow Design  
+###  UI & Interaction Flow Design  
 https://xd.adobe.com/view/c8248d74-c1a0-4a77-994c-a5f5009ac048-9d77/
 
-### 🔌 Backend Services  
+###  Backend Services  
 NOVI Educational Backend (no API keys needed):  
 https://novi.datavortex.nl
 
-### 📚 Book Data Source  
+###  Book Data Source  
 Open Library API: https://openlibrary.org/developers/api  
 (No keys required.)
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React 18  
@@ -64,7 +64,7 @@ Open Library API: https://openlibrary.org/developers/api
 
 ---
 
-## 🎯 What This Project Demonstrates
+##  What This Project Demonstrates
 
 - Building a multi-page **Single Page Application (SPA)**  
 - Implementing **authentication, protected routes, registration**  
@@ -77,15 +77,15 @@ Open Library API: https://openlibrary.org/developers/api
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🔐 User Authentication  
+###  User Authentication  
 Register, log in, log out, change password.
 
-### 🎲 Random Book Display  
+###  Random Book Display  
 25 random books shown at every login.
 
-### 🔍 Book Search  
+###  Book Search  
 Search by:
 - title  
 - keyword  
@@ -93,10 +93,10 @@ Search by:
 - author  
 - exclude author  
 
-### 👤 Author Search  
+###  Author Search  
 View author bio, photo, and published works.
 
-### 📖 Book Details  
+###  Book Details  
 Includes:
 - title  
 - author  
@@ -106,15 +106,15 @@ Includes:
 - languages  
 - description  
 
-### ⭐ Personal Bookshelf  
+###  Personal Bookshelf  
 Save or remove books from your reading list.
 
-### 🎨 Adobe XD Design  
+###  Adobe XD Design  
 Interface designed fully before build.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 vibo/
@@ -134,7 +134,7 @@ vibo/
 ```
 ---
 
-## 📦 Requirements
+##  Requirements
 
 ### Runtime  
 Install Node.js:  
@@ -153,7 +153,7 @@ To use a different backend, update:
 
 ---
 
-## 🔧 Installation
+##  Installation
 
 1. Install Node.js + npm  
 2. Clone the repo:
@@ -169,7 +169,7 @@ npm install -g npm@latest
 
 ---
 
-## ▶️ Getting Started
+##  Getting Started
 
 ### Commands
 
@@ -184,7 +184,7 @@ npm install -g npm@latest
 
 ---
 
-## 👤 Test Account
+##  Test Account
 
 You may create your own, or use:
 ```
