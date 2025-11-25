@@ -115,6 +115,8 @@ Interface designed fully before build.
 ---
 
 ## 📁 Project Structure
+
+```
 vibo/
 │
 ├── public/                 # Static assets
@@ -129,6 +131,7 @@ vibo/
 │
 ├── package.json
 └── README.md
+```
 ---
 
 ## 📦 Requirements
